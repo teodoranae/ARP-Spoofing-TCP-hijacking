@@ -1,1 +1,1 @@
-# ARP-Spoofing-TCP-hijacking
+This is a part of my contribution for the Computer Networks project which demonstrates ARP spoofing and TCP hijacking in a Docker container environment. The middle container performs ARP poisoning on server and router (man-in-the-middle attack), redirecting traffic through itself. Using this position, TCP messages between client and server can be intercepted and modified in real time (TCP hijacking). The setup includes Docker-based containers with custom routing and IP forwarding allowing safe experimentation with network attacks. 
